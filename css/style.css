@@ -313,8 +313,8 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 300px;
-    padding: 0 30px;
+    height: 680px;
+    padding: 0 20px;
     transition: .5s;
 }
 
@@ -489,4 +489,9 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+}
+
+.mb-ul{
+    margin-bottom:1rem !important;
+    text-align: left;
 }
