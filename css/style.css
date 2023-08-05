@@ -495,3 +495,8 @@ h6,
     margin-bottom:1rem !important;
     text-align: left;
 }
+
+.mb-about-text{
+    margin-bottom:1rem !important;
+    text-align: justify;
+}
