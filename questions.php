@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <title>Work Humans Center</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
 <body>
 <center>PREGUNTAS</center>
 <br>
@@ -21,13 +34,14 @@
     // output data of each row
     if ($result->num_rows > 0) {
 ?>
-      <table border=1 align=center>
+      <table border=1 align=center class="table">
         <th>Id</th>
         <th>Nombre</th>
         <th>Email</th>
         <th>Telefono</th>
         <th>Servicio</th>
         <th>Pregunta</th>
+        <th>Fecha de creacion</th>
     
 <?php
       while($row = $result->fetch_assoc()) {
