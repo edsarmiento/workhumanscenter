@@ -159,22 +159,22 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form action="question_store.php" method="post">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" required=true class="form-control border-0 bg-light px-4" placeholder="Nombre" style="height: 55px;">
+                                <input name="c_name" type="text" required=true class="form-control border-0 bg-light px-4" placeholder="Nombre" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" required=true class="form-control border-0 bg-light px-4" placeholder="Email" style="height: 55px;">
+                                <input name="c_email" type="email" required=true class="form-control border-0 bg-light px-4" placeholder="Email" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" required=true class="form-control border-0 bg-light px-4" placeholder="Telefono" style="height: 55px;">
+                                <input name="c_phone" type="text" required=true class="form-control border-0 bg-light px-4" placeholder="Telefono" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" required=true class="form-control border-0 bg-light px-4" placeholder="Servicio de su interes" style="height: 55px;">
+                                <input name="c_service" type="text" required=true class="form-control border-0 bg-light px-4" placeholder="Servicio de su interes" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea required=true class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Mensaje"></textarea>
+                                <textarea name="c_message" required=true class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Enviar Mensaje</button>
